@@ -1,0 +1,10 @@
+# <tipo>: <descripción>
+# Tipos: feat, fix, chore
+#
+# Ejemplos:
+# feat: agregar soporte para scroll vertical
+# fix: corregir parpadeo del cursor
+# chore: actualizar configuración de VS Code
+#
+# [cuerpo opcional - deja una línea en blanco]
+#
