@@ -1,0 +1,30 @@
+name: Feature Request
+description: Solicitar una nueva funcionalidad
+title: "[feat] "
+labels: ["feat"]
+assignees: []
+body:
+  - type: textarea
+    id: descripcion
+    attributes:
+      label: Descripción
+      description: Describe la funcionalidad que te gustaría ver
+      placeholder: "¿Qué funcionalidad te gustaría ver en OdinIDE?"
+    validations:
+      required: true
+  - type: textarea
+    id: motivacion
+    attributes:
+      label: Motivación
+      description: ¿Por qué es necesaria esta funcionalidad?
+      placeholder: "Razón o problema que resuelve..."
+    validations:
+      required: true
+  - type: textarea
+    id: contexto
+    attributes:
+      label: Contexto adicional
+      description: Cualquier información adicional, mockups o referencias
+      placeholder: "Links, screenshots, o cualquier referencia..."
+    validations:
+      required: false

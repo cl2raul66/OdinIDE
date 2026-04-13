@@ -1,0 +1,40 @@
+name: Chore
+description: Tareas menores, ajustes o refactorizaciones
+title: "[chore] "
+labels: ["chore"]
+assignees: []
+body:
+  - type: textarea
+    id: descripcion
+    attributes:
+      label: Descripción
+      description: Describe brevemente la tarea o ajuste
+      placeholder: |
+        Ejemplos:
+        - Refactorizar código en text_engine/
+        - Mejorar documentación
+        - Agregar tests
+    validations:
+      required: true
+  - type: dropdown
+    id: tipo
+    attributes:
+      label: Tipo de tarea
+      options:
+        - Refactorización
+        - Documentación
+        - Tests
+        - Dependencias
+        - Estilo de código
+        - Configuración
+        - Otro
+    validations:
+      required: true
+  - type: textarea
+    id: motivacion
+    attributes:
+      label: Motivación
+      description: ¿Por qué es necesaria esta tarea?
+      placeholder: "Razón para realizar este ajuste..."
+    validations:
+      required: false

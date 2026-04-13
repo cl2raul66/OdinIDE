@@ -1,0 +1,12 @@
+bin/
+out/
+
+*.exe
+*.dll
+*.lib
+*.a
+*.pdb
+*.ilk
+*.obj
+*.o
+*.tmp

@@ -1,0 +1,14 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Odin: Run",
+			"type": "shell",
+			"command": "odin run src -out:bin/OdinIde.exe -debug -show-debug-messages"
+		},{
+			"label": "Odin: Check",
+			"type": "shell",
+			"command": "odin check src"
+		}
+	]
+}
