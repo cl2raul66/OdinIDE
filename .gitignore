@@ -10,3 +10,5 @@ out/
 *.obj
 *.o
 *.tmp
+
+CONTRIBUTING_WORKING.md

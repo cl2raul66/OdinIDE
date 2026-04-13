@@ -389,6 +389,19 @@ fix: corregir parpadeo del cursor en Windows
 chore: actualizar configuración de VS Code
 ```
 
+### Configuración de Commit Template
+
+El proyecto incluye una plantilla de commit para mantener consistencia:
+
+1. La plantilla está disponible en [`.gitmessage`](.gitmessage)
+2. Configurar git para usarla:
+
+```bash
+git config commit.template .gitmessage
+```
+
+Esto mostrará la plantilla automáticamente al hacer `git commit`.
+
 ### Pull Requests
 
 #### Antes de Crear un PR
